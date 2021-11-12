@@ -1,0 +1,21 @@
+Các tính chất OOP
+- Tính đóng gói :         
+      + các data, method liên quan sẽ gói thành class để quản lý, tái sử dụng
+      + che giấu data, muốn tiếp cận data buộc phải dùng method của object
+
+- Tính kế thừa
+      + cho phép tạo class con dựa trên class cha đã có
+      + class cha chia sẻ data, method với class con
+      + class con có thể mở rộng thêm data, method mới
+
+- Tính Đa hình
+      + Cho phép thực hiện 1 hành động theo các cách khác nhau
+      + Class, object có method giống nhau nhưng thực hiện khác nhau
+
+- Tính trừu tượng
+      + Tổng quát hóa, không quan tâm tới chi tiết bên trong
+      + chỉ dùng để kế thừa
+      + Không quan tâm tới nội dung thực hiện chi tiết, chỉ cần biết có những chức năng gì
+
+VD  xe nhấn ga thì tăng tốc
+    nhấn phanh thì dừng lại          k quan tâm nó thực hiện ntn
